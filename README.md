@@ -1,4 +1,4 @@
-##Tasty Journey 
+## Tasty Journey 
 
 This is a web application for searching and displaying nutrition information for recipes. It utilizes the Edamam API to fetch recipe data and display it to the user.
 
