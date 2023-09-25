@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+ 
+  header{
+    font-size: 3rem;
+    font-weight: bold; 
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #7CB938;
+    text-align: center;
+  }
+  div.h3ul p{
+    text-align: center;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+  .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e0db;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .recipe-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #e6e0db;
+      border-top-right-radius: 3rem;
+      border-bottom-left-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+      border-top-left-radius: 3rem;
+      margin:1rem;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+  }
+
+  .panou1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      
+      margin-bottom: 0.4rem;
+    
+  }
+
+  div{
+    border: 1px red dotted; 
+   }
+  .chart-container{
+      height: 100%;
+      width: 33%;
+  }
+  .nutrition{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 33%;
+      
+  }
+  .ingredients{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 31%;
+      margin-left: 1rem;
+  }
+  .fatCal{
+      display: flex;
+      flex-direction: column;
+      margin-left: 300px;
+      align-items: center;
+      height: 100%;
+      width: 33%;
+  }
+  .panou1>img{
+      
+      height: 100%;
+      width: 33%;
+      object-fit: cover;
+      border-radius: 1rem;
+      border: 1px solid gray;
+  }
+  .poza{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 33%;
+      height: 100%;
+  }
+  .info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 33%;
+      height: 100%;
+  }
+  .ratio{
+          display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 33%;
+      height: 100%;
+  }
+  img{
+      max-width: 100%;
+      max-height: 100%;
+      aspect-ratio: 16/9;
+  }
+  .panou2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      
+  }
+  
+  .ing{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      width: 33%;
+      height: 100%;
+  }
+  .clao{
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+      width: 33%;
+  }
+
+
+  button{
+    background:#7CB938; 
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(39, 40, 41, 0.77);
+}
+  #loadMoreButton {
+    color: white; 
+    padding:5px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+  
+  #searchbtn{
+    width:22px;
+    height: 20px;
+    padding-bottom: 2px;
+    margin-left: -3px;
+}
+
+  #searchbtn > img {
+    width: 15px;
+    height: 13px;
+    margin-top: 12%;
+    
+   }
+
+#searchInput{
+    font-size: 17px;
+    margin-right: 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(39, 40, 41, 0.7);
+}
+
+.recipe-card h2{
+    text-align: center  ;
+    display: flex;
+    justify-content: space-between;}
+  
+  h2 > a{
+  text-decoration: none;
+  color: black;
+  }
+  h2 > a:hover {
+  cursor: pointer;
+  color: #7CB938;
+  }
+
+  footer {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
