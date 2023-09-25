@@ -9,8 +9,7 @@ This is a web application for searching and displaying nutrition information for
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Technologies Used](#technologies-used)
 
 ## Features
 
