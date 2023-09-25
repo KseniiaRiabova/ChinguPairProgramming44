@@ -18,8 +18,6 @@ This is a web application for searching and displaying nutrition information for
 - Search for recipes using keywords.
 - Display detailed nutrition information for each recipe.
 - Load more results to see additional recipes.
-- The web application is designed to be responsive, providing an optimal viewing and interaction experience across a wide range of devices, including mobile phones and tablets.
-
 ## Getting Started
 
 ### 1. Clone the Repository
